@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>IP_FORM</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
+
+		<!-- ip.css -->
+	<link rel="stylesheet" href="css/reset.css">		
+	<link rel="stylesheet" href="css/ip.css">
+
+</head>
+<body>
+
+<!-- HEADER ************************************************************************* -->	
+		<header>
+			<div class="container">
+				<div id="headerlogo"><a href="index.html"><img src="images/ip_logo_black.png" alt="IP logo"></a></div>
+				<nav>
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="#">what we do</a></li>
+						<li><a href="#">who we are</a></li>
+						<li><a href="blog.html">contact us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+<!-- HERO ************************************************************************* -->
+		<section id="hero_2">
+			<div class="container">
+				<div id="introsection">
+					<h1>We are your in-house design agency</h1>
+					<p id="herointro">We understand how to cultivate brands in ways that make them stand apart from the crowd and generate business. Using targeted visual strategies, we create a cohesive message that clearly communicate the benefits and make prospects want to know more.</p>
+					<div class="button_white">
+						<a href="#">Get a Free Quote</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!-- FORM ************************************************************************* -->
+
+
+	<div class="container">
+		<fieldset id="field_01">
+			<h1>Request a Quote or Information</h1>
+
+			
+
+			<form action="/login" method="post">
+				<label for="name">Your Name <span id="required">(required)</span></label>
+				<input type="text" name="name" Placeholder="John Doe" id="name">
+
+				<label for="companyname">Company Name <span id="required">(required)</span></label>
+				<input type="text" name="companyname" Placeholder="Company Name" id="companyname">
+
+				<label for="email">Email Address <span id="required">(required)</span></label>
+				<input type="text" name="email" Placeholder="john@gmail.com" id="email">
+
+
+				<label for="phone">Phone Number <span id="required">(required)</span></label>
+				<input type="text" name="phone" Placeholder="000-000-0000" id="phone">
+
+				
+				<div id="checkboxes">
+					<input type="checkbox" name="projecttype" value="Logo_Branding">Logo & Branding
+					<input type="checkbox" name="projecttype" value="Print_Marketing_Collateral">Print & Marketing Collateral
+					<input type="checkbox" name="projecttype" value="WordpressWebsite"> Wordpress Website
+					<input type="checkbox" name="projecttype" value="Other_Web_Design">Other Web Design
+					<input type="checkbox" name="projecttype" value="Copy_Writing">Copy Writing
+					<input type="checkbox" name="projecttype" value="Social_Media_Marketing">Social Media Marketing			
+					<input type="checkbox" name="projecttype" value="Other">Other <span id="required">(please list in project details)</span>
+
+				</div>
+				
+				<br>		
+				<label for="comment">Project Details <span id="required">(required)</span></label>
+				<textarea name="comment" id="details">Describe Project Details</textarea>
+
+				<div id="choosefile"><input class="no" type="file"  name="file"></div>
+				<br>
+
+				<button class="submitbtn" name="submit">Submit Request</button>
+				
+		</fieldset>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
